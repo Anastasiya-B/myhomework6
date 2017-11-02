@@ -1,0 +1,100 @@
+@import "grid.css";
+html {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;
+    min-height: 100%;
+    height: 100%;
+    }
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+    background: url("../assets/images/pattern.jpg");
+    color: white;
+    }
+
+.page-wrapper {
+    position: absolute;
+    max-width: 820px;
+    margin: 0 auto;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+.page-title {
+    padding: 0.5rem;
+    }
+
+.page-content {
+    height: 100%;
+    }
+.wrapper-content {
+    width: 100%;
+    position: relative;
+}
+.item__wrapper {
+    height: 100%;
+    position: relative;
+}
+.item-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.item-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem;
+    color: white;
+}
+.page-content__item {
+    position: relative;
+    height: 150px;
+    padding: 0.5rem;
+
+}
+.page-content__item:nth-child(1) .item__wrapper {
+    background-color: #3387ea;
+}
+.page-content__item:nth-child(2) .item__wrapper {
+    background-color: #f9be3e;
+}
+.page-content__item:nth-child(3) .item__wrapper {
+    background-color: #d3573e;
+}
+.page-content__item:nth-child(4) .item__wrapper {
+    background-color: #59b0e2;
+}
+.page-content__item:nth-child(5) .item__wrapper {
+    background-color: #33af95;
+}
+.page-content__item:nth-child(6) .item__wrapper {
+    background-color: #86a73f;
+}
+.page-content__item:nth-child(7) .item__wrapper {
+    background-color: #151a26;
+}
+.page-content__item:nth-child(8) .item__wrapper {
+    background-color: #7e5b8c;
+}
+
+.block-image {
+    display: flex;
+    color: white;
+}
+
+.block-image__icon {
+    height: 100%;
+    flex: 0 0 30%;
+    background: url('../assets/images/blog-image.png') no-repeat center;
+    background-size: cover;
+}
+.block-text {
+    flex: 0 0 70%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
